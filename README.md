@@ -12,13 +12,13 @@ https://github.com/MrSaeidSeyfi/Tetris-RL/assets/87762511/6f3babcf-7713-4bdc-a52
 ## Usage
 
 To train the DQN agent, run:
-
+```bash
 python tetris_dqn/dqn.py
-
+```
 To test the Tetris environment, run:
-
+```bash
 python tetris_dqn/tetris_env.py
-
+```
 ## Improving RL Reward Methods
 
 A key focus of this project is the ongoing improvement of the reinforcement learning reward methods. The current approach includes a combination of line-clear rewards, height penalties, and hole penalties. Future improvements aim to fine-tune these rewards to enhance the agent's learning efficiency and overall performance.
