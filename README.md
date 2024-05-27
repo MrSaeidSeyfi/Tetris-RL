@@ -9,23 +9,17 @@ https://github.com/MrSaeidSeyfi/Tetris-RL/assets/87762511/6f3babcf-7713-4bdc-a52
 
 
 
-Usage
+## Usage
 
 To train the DQN agent, run:
-
-bash
 
 python tetris_dqn/dqn.py
 
 To test the Tetris environment, run:
 
-bash
-
 python tetris_dqn/tetris_env.py
 
-
-
-Improving RL Reward Methods
+## Improving RL Reward Methods
 
 A key focus of this project is the ongoing improvement of the reinforcement learning reward methods. The current approach includes a combination of line-clear rewards, height penalties, and hole penalties. Future improvements aim to fine-tune these rewards to enhance the agent's learning efficiency and overall performance.
 Current Reward Calculation
@@ -34,13 +28,13 @@ Current Reward Calculation
     Height Penalty: Penalizes the agent for increasing the height of the blocks, encouraging a flatter playing field.
     Holes Penalty: Penalizes the agent for creating holes beneath blocks, encouraging a more solid block structure.
 
-Future Improvements
+## Future Improvements
 
     Adaptive Rewards: Implementing rewards that adapt based on the agent's current performance and learning stage.
     Complexity-based Penalties: Introducing penalties for complex block structures that are harder to clear.
     Exploration Incentives: Adding incentives for the agent to explore different strategies during the learning phase.
 
-Contributing
+## Contributing
 
 We welcome contributions to improve the Tetris DQN project. To contribute:
 
